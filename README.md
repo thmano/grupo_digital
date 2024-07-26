@@ -29,7 +29,7 @@ e submetidos ao final do formulário.
 
 ## Como rodar o projeto
 
-após clonar o repositório basta rodar os comandos 
+após clonar o repositório basta rodar os comandos <br>
 -para instalar os pacotes e suas depedencias 
 ### `npm install` 
 
@@ -41,9 +41,20 @@ após clonar o repositório basta rodar os comandos
 caso aconteça algum erro ao rodar o projeto por favor verifique se está no diretório correto, certifique-se de ter o node instalado em sua maquina, caso os erros persistam por favor entre em contato para maior avaliação.
 
 ## Tecnologias utilizadas 
-
--vite (criação do ambiente de desenvolvimento)
+<ul>
+<li>
+    -vite (criação do ambiente de desenvolvimento)
+</li>
+<li>
 -axios (para requisições http)
+</li>
+<li>
 -React (Biblioteca selecionada)
+</li>
+<li>
 -Styled-components (biblioteca de estilização)
+</li>
+<li>
 -cpf-cnpj-validator (validador de cnpj)
+</li>
+</ul>
