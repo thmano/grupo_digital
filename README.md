@@ -30,11 +30,11 @@ e submetidos ao final do formulário.
 ## Como rodar o projeto
 
 após clonar o repositório basta rodar os comandos 
-### `npm install` 
 -para instalar os pacotes e suas depedencias 
+### `npm install` 
 
-### `npm run dev`
 -para iniciar o projeto
+### `npm run dev`
 
 ### erro
 

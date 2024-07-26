@@ -132,7 +132,7 @@ export function Form({ ...user }) {
           <label htmlFor="telefone">Telefone:</label>
           <InputEdit
             id="telefone"
-            maxlength='11'
+            maxLength='11'
             onKeyPress={(event) => {
                 if (!/[0-9]/.test(event.key)) {
                     event.preventDefault();
