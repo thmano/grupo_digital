@@ -26,6 +26,7 @@ export function User({ ...item }) {
   const [openForm, setOpenForm] = useState(false)
   return (
     <>
+    {!openForm ? 
       <ContainerUser>
         <Title>Dados da empresa:</Title>
         <AreaEmpresa>
@@ -55,7 +56,7 @@ export function User({ ...item }) {
           <ContainerSocios>
 
           {user.qsa.map((socio, index) => (
-              <AreaSocio key={index}>
+            <AreaSocio key={index}>
               <TextSocio>Nome: {socio.nome_socio}</TextSocio>
               <TextSocio>
                 Qualificação: {socio.qualificacao_representante_legal}
@@ -66,6 +67,7 @@ export function User({ ...item }) {
           <ButtonOpenForm onClick={() => setOpenForm(true)}>Editar</ButtonOpenForm>
         </AreaEmpresa>
       </ContainerUser>
+      : null}
       {openForm ? 
       <>
         <Form user={user}/>
